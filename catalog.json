@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "items": [
+    {"id": "ssd_saver", "name": "SSD Saver", "free": true, "icon": "DISK_DRIVE",
+     "tagline": "Autosave written only after a change: protects your SSD"}
+  ]
+}
