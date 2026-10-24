@@ -1,5 +1,29 @@
 {
   "version": "v1",
   "blocklist": [],
-  "data": []
+  "data": [
+    {
+      "schema_version": "1.0.0",
+      "id": "ssd_saver",
+      "name": "SSD Saver",
+      "tagline": "Blender's autosave, written only after a change: no more rewriting the file all night",
+      "version": "0.1.0",
+      "type": "add-on",
+      "maintainer": "loic bramoulle",
+      "license": [
+        "SPDX:GPL-3.0-or-later"
+      ],
+      "blender_version_min": "4.2.0",
+      "tags": [
+        "System"
+      ],
+      "permissions": {
+        "files": "Writes Blender's autosave file into its temporary folder",
+        "network": "Check for SSD Saver updates"
+      },
+      "archive_url": "./ssd_saver-0.1.0.zip",
+      "archive_size": 28290,
+      "archive_hash": "sha256:113085009c6405c6463c17c80a821bc531eb0d1ee150fd9d74d9265e3ce287bb"
+    }
+  ]
 }
